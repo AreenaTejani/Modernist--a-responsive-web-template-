@@ -1,0 +1,669 @@
+//To make all sections responsive the coding is done below
+
+@import "color";
+@import "font";
+
+
+
+
+@media screen and(max-width:1199px){
+	.navbar-default .navbar-nav > li > a {
+	padding-right:10px;
+	padding-left:10px;
+	
+}
+
+#mymenu{
+	margin-right:10px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+padding-right:10px;
+padding-left:10px;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+	width:100px;
+}
+
+
+.text h1{
+	font-size:40px;
+}
+
+.text p{
+	font-size:14px;
+}
+
+.text button{
+	font-size:13px;
+}
+
+#circle{
+	margin-left:0px;
+	height:340px;
+    width:340px;
+
+}
+
+.arrow{
+	padding-top:160px;}
+
+
+.sqr1{
+	font-size:16px;
+}
+
+.sech3{
+	font-size:35px;
+}
+
+
+.secp{
+	padding-left:0px;
+	font-size:14px;
+	padding-left:20px;
+}
+
+
+.top{
+	padding-top:10px;
+}
+
+.bottom{
+	padding-top:10px;
+}
+
+
+#linep{
+	font-size:25px;
+}
+
+
+.lower{
+	font-size:14px;
+}
+
+
+
+#text1{
+	width:100%;
+	font-size:14px;
+}
+
+.linksh{
+	font-size:16px;
+}
+
+
+#atname{
+   
+	font-size:16px;
+}
+
+#text2{
+    
+	font-size:16px;	
+	width:100%;
+}
+
+
+
+.input{
+	width:100%;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:991px){
+
+	.navbar-header .navbar-brand{
+		font-size:25px;
+
+	}
+
+.navbar-default .navbar-nav > li > a {
+	font-size:10px;
+	padding-right:8px;
+	padding-left:8px;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+padding-right:8px;
+	padding-left:8px;
+}
+
+
+.carousel-control.left, .carousel-control.right {
+	width:60px;
+}
+
+
+.text{
+	padding-left:0px;
+	}
+
+
+.text h1{
+	font-size:30px;
+}
+
+.text p{
+	font-size:10px;
+}
+
+.text button{
+	font-size:11px;
+}
+
+#circle{
+	margin-left:0px;
+	height:300px;
+    width:300px;
+
+}
+
+
+.arrow{
+	padding-top:140px;
+    }
+
+.section{
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.sqr{
+padding-left:20px;
+padding-right:20px;
+}
+
+
+.sqr1{
+	font-size:16px;
+}
+
+.sech3{
+	font-size:30px;
+}
+
+
+.secp{
+	padding-left:0px;
+	font-size:12px;
+	padding-left:20px;
+}
+
+
+#text1{
+	width:100%;
+	font-size:12px;
+}
+
+#readmore{
+font-size:16px;	
+}
+
+.linksh{
+	font-size:14px;
+}
+
+
+#atname{
+   
+	font-size:12px;
+}
+
+#text2{
+    
+	font-size:12px;	
+	width:100%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:$grey2;
+	font-size:12px;	
+}
+
+.input{
+	width:100%;
+}
+
+
+#submit{
+	font-size:14px;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:767px){
+
+.navbar-default .navbar-nav > li > a {
+	display:block;
+	font-size:12px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+
+	 border-radius:5px;
+   background-color:$green1;
+   border-bottom:solid 2px white;
+
+}
+
+
+
+.carousel-control.left, .carousel-control.right {
+	width:60px;
+	background-color:transparent;}
+
+
+.text{
+	padding-left:0px;
+	padding-top:40px;
+	}
+
+
+.text h1{
+	font-size:35px;
+}
+
+.text p{
+	font-size:11px;
+	font-weight:bold;
+}
+
+.text button{
+	font-size:12px;
+}
+
+#circle{
+	margin-left:0px;
+	height:280px;
+    width:280px;
+
+}
+
+
+.arrow{
+	padding-top:140px;
+	visibility:hidden;
+    
+    
+}
+
+
+.section{
+	padding-left:0px;
+	padding-right:0px;
+
+}
+
+.sqr{
+padding-left:100px;
+padding-right:100px;
+}
+
+
+.sqr1{
+	font-size:26px;
+}
+
+.sech3{
+	font-size:50px;
+}
+
+
+.secp{
+	padding-left:10%;
+	font-size:20px;
+	width:70%;
+	margin-left:10%;
+
+}
+
+
+.box{
+	margin-top:30px;
+}
+
+#linep{
+	font-size:25px;
+}
+
+
+.lower{
+	font-size:20px;
+}
+
+
+.box p{
+	font-size:22px;
+}
+
+
+.heading{
+	border-bottom:solid 2px $green;
+}
+
+.fottsep{
+margin-top:50px;
+}
+
+
+.fottsep:hover{
+margin-top:40px;
+border-bottom:solid 2px $white;
+
+}
+
+
+.top{
+	visibility:hidden;
+}
+
+.bottom{
+	visibility:hidden;
+}
+
+#line-button{
+	border:solid 5px $green;
+}
+	#linep{
+	padding-top:50px;
+	padding-bottom:50px;
+	}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and(max-width:619px){
+
+
+.carousel-control.left, .carousel-control.right {
+	width:60px;
+	background-color:transparent;}
+
+
+.text{
+	padding-left:0px;
+	padding-top:0px;
+    margin-left:0px;
+   // border:solid 2px red;
+    width:220%;
+    text-align:center;
+	}
+
+
+.text h1{
+	font-size:40px;
+}
+
+.text p{
+	font-size:14px;
+	font-weight:bold;
+}
+
+.text button{
+	font-size:13px;
+}
+
+#circle{
+	margin-left:0px;
+	height:80px;
+    width:80px;
+    visibility:hidden;
+    margin-left:100px;
+    
+
+}
+
+
+.arrow{
+	padding-top:140px;
+	visibility:hidden;
+    }
+
+
+.section{
+	padding-left:0px;
+	padding-right:0px;
+
+}
+
+.sqr{
+padding-left:90px;
+padding-right:90px;
+}
+
+
+.sqr1{
+	font-size:24px;
+}
+
+.sech3{
+	font-size:45px;
+}
+
+
+.secp{
+	padding-left:10%;
+	font-size:18px;
+	width:70%;
+	margin-left:10%;
+
+}
+
+.lower{
+	font-size:15px;
+}
+
+
+.box p{
+	font-size:15px;
+}
+
+
+
+}
+
+
+
+
+
+
+@media screen and(max-width:421px){
+
+	.section{
+	padding-left:0px;
+	padding-right:0px;
+
+}
+
+.sqr{
+padding-left:60px;
+padding-right:60px;
+}
+
+
+.sqr1{
+	font-size:20px;
+}
+
+.sech3{
+	font-size:40px;
+}
+
+
+.secp{
+	padding-left:10%;
+	font-size:15px;
+	width:70%;
+	margin-left:10%;
+
+}
+
+
+
+
+.top{
+	padding-top:5px;
+		visibility:hidden;
+}
+.bottom{
+	padding-top:5px;
+		visibility:hidden;
+}
+
+
+
+
+}
+
+
+
+@media screen and(max-width:375px){
+.text h1{
+	font-size:35px;
+}
+
+.text p{
+	font-size:10px;
+	font-weight:bold;
+}
+
+
+
+.top{
+	padding-top:5px;
+		visibility:hidden;
+}
+.bottom{
+	padding-top:5px;
+		visibility:hidden;
+}
+
+
+}
+
+
+
+
+@media screen and(max-width:320px){
+
+.text h1{
+	font-size:30px;
+
+}
+
+.section{
+	padding-left:0px;
+	padding-right:0px;
+
+}
+
+.sqr{
+padding-left:50px;
+padding-right:50px;
+}
+
+
+.sqr1{
+	font-size:15px;
+}
+
+.sech3{
+	font-size:30px;
+}
+
+
+.secp{
+	padding-left:10%;
+	font-size:10px;
+	width:70%;
+	margin-left:10%;
+
+}
+
+
+
+.top{
+	padding-top:5px;
+	visibility:hidden;
+}
+.bottom{
+	padding-top:0px;
+		visibility:hidden;
+}
+
+
+.navbar-header .navbar-brand{
+		font-size:20px;
+		padding:none;
+	
+
+}
+
+
+
+}

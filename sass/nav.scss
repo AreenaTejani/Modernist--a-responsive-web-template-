@@ -1,0 +1,61 @@
+@import "color";
+@import "font";
+
+header{
+	background-color:$dark-red;
+	padding-top:20px;
+
+}
+
+.navbar-default{
+	background-color:transparent;
+	border-color:transparent;
+	//border:solid 2px red;
+}
+
+.navbar-header .navbar-brand{
+	font-family:$font;
+	font-size:30px;
+	//border:solid 2px red;
+	color:$white;
+	padding:none;
+
+}
+
+
+.navbar-header .navbar-brand:hover{
+	color:$green;
+}
+
+
+
+
+
+.navbar-default .navbar-nav > li > a {
+   font-family:$font;
+    //border:solid 2px red;
+    padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom:10px;
+	margin-top:05px;
+	font-size: 13px;
+	text-transform:uppercase;
+    color:$white;
+    
+}
+
+
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color:$white;
+    padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom:10px;
+    margin-top:05px;
+   font-size: 12px;
+	text-transform:uppercase;
+   border-radius:10px;
+   background-color:$green;
+	
+}

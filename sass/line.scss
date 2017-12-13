@@ -1,0 +1,36 @@
+@import "color";
+@import "font";
+
+.line{
+padding-top:40px;	
+
+}
+
+.top{
+    padding-right:0px;
+    padding-top:20px;
+    
+}
+
+.bottom{
+	padding-left:0px;
+    padding-top:20px;
+   }
+
+hr{
+  border:solid 3px $dark-grey	
+}
+
+#line-button{
+	border-radius:10px;
+	background-color:$dark-grey;
+
+}
+
+#linep{
+	  font-size:35px;
+	  color:$white;
+	  font-family:$font;
+	  text-align:center;
+	  padding-top:10px;
+}

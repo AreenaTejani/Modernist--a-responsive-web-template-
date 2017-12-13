@@ -1,0 +1,26 @@
+.line {
+  padding-top: 40px; }
+
+.top {
+  padding-right: 0px;
+  padding-top: 20px; }
+
+.bottom {
+  padding-left: 0px;
+  padding-top: 20px; }
+
+hr {
+  border: solid 3px #333333; }
+
+#line-button {
+  border-radius: 10px;
+  background-color: #333333; }
+
+#linep {
+  font-size: 35px;
+  color: white;
+  font-family: Timesnewroman;
+  text-align: center;
+  padding-top: 10px; }
+
+/*# sourceMappingURL=line.css.map */

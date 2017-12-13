@@ -1,0 +1,20 @@
+@import "color";
+@import "font";
+
+.bottom1{
+	background-color:$grey3;
+	border-top:solid 1px black;
+	padding-bottom:10px;
+	padding-top:10px;
+
+}
+
+#bottom1{
+	color:$grey2;
+	text-align:center;
+    font-family:$font;
+}
+
+#year{
+	font-family:$font1;
+}

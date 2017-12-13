@@ -1,0 +1,125 @@
+@import "color";
+@import "font";
+
+footer{
+	background-color:$grey-light;
+	font-family:$font;
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.heading{
+	color:$white;
+	padding-bottom:20px;
+
+
+}
+
+#posttitle{
+	color:$green;
+	font-size:18px;
+	font-weight:bold;
+}
+
+#admininner{
+	color:$green;
+	font-size:13px;
+}
+
+#admin{
+font-size:13px;
+color:$grey1;	
+}
+
+#date{
+font-size:12px;
+color:$grey2;
+font-family:$font1;	
+}
+
+
+#text1{
+	color:$grey2;
+	width:262px;
+	font-size:18px;
+}
+
+#readmore{
+	color:$green;
+	font-size:18px;
+	cursor:pointer;
+}
+
+.arrow1{
+	color:$grey2;
+}
+
+.linksh{
+	color:$green;
+	font-size:18px;
+	padding-top:3px;
+	border-bottom:dotted 2px $grey1;
+	cursor:pointer;
+}
+
+
+#atname{
+    cursor:pointer;
+	color:$green;
+	font-size:18px;
+}
+
+#text2{
+    padding-top:3px;
+    color:$grey2;
+	font-size:18px;	
+	width:262px;
+}
+
+
+.input{
+    outline:none;
+	background-color:$grey4;
+	border:none;
+	border-radius:10px;
+	color:$grey2;
+	width:250px;
+	
+}
+
+.space{
+	margin-top:10px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:$grey2;
+	font-size:18px;	
+}
+
+input[type=text]{
+  padding-bottom:10px;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+textarea{
+	padding-left:10px;
+	padding-top:5px;
+	height:100px;
+    overflow:hidden;
+    resize:none;
+}
+
+
+#submit{
+	background-color:$green;
+	border-radius:15px;
+	color:$bold-grey;
+	font-size:18px;
+	text-transform:uppercase;
+	border:none;
+	padding:12px;
+	font-weight:bold;
+    margin-top:8px;
+    outline:none;
+}

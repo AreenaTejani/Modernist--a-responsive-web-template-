@@ -1,0 +1,59 @@
+.slider {
+  background-color: #290000;
+  margin: 0px;
+  padding-bottom: 40px; }
+
+.text {
+  padding-top: 63px;
+  padding-left: 35px; }
+
+.text h1 {
+  color: white;
+  font-family: Timesnewroman;
+  font-size: 50px; }
+
+.text p {
+  color: #6b6b6b;
+  font-family: Timesnewroman;
+  font-size: 16px;
+  font-weight: lighter; }
+
+.text button {
+  border: none;
+  font-family: Timesnewroman;
+  background-color: #76c38f;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  padding-top: 9px;
+  padding-bottom: 7px;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-top: 5px;
+  outline: none; }
+
+#circle {
+  border: solid 20px #6b6b6b;
+  height: 380px;
+  width: 380px;
+  border-radius: 200px;
+  font-family: rufina;
+  font-size: 25px;
+  color: white;
+  background-color: #333333;
+  cursor: pointer;
+  outline: none;
+  margin-left: 40px; }
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  opacity: 100;
+  cursor: default;
+  background-color: #290000;
+  width: 120px; }
+
+.arrow {
+  padding-top: 190px;
+  cursor: pointer; }
+
+/*# sourceMappingURL=slider.css.map */

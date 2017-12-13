@@ -1,0 +1,71 @@
+@import "color";
+@import "font";
+
+section{
+	background-color:$light-red;
+}
+
+.sqr{
+	padding-top:20px;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+
+.sqr1{
+	background-color:$dark-grey;
+    //border:solid 2px red;
+    color:$white;
+    font-size:20px;
+    font-family:$font1;
+    text-align:center;
+    padding-left:none;
+    padding-right:none;
+    padding-top:55px;
+    padding-bottom:55px;
+
+    }
+
+
+#sqr1{
+	background-color:$white;
+	color:$dark-grey;
+}    
+
+.section{
+cursor:pointer;	
+background-color:$white;
+margin-top:50px;
+padding-bottom:30px;
+
+}
+
+#section2{
+	background-color:$green;
+}
+
+
+.sech3{
+	text-align:center;
+	font-family:$font;
+	font-size:40px;
+}
+
+
+#sech3{
+	color:$white;
+}
+
+.secp{
+	text-align:center;
+	font-size:15px;
+	width:90%;
+	padding-left:15px;
+	padding-top:5px;
+	color:$grey;
+
+}
+
+#secp{
+	color:$white;
+}

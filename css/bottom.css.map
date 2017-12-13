@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,QAAQ;EACP,gBAAgB,ECMV,OAAa;EDLnB,UAAU,EAAC,eAAe;EAC1B,cAAc,EAAC,IAAI;EACnB,WAAW,EAAC,IAAI;;AAIjB,QAAQ;EACP,KAAK,ECHC,OAAgB;EDItB,UAAU,EAAC,MAAM;EACd,WAAW,EEdT,aAAa;;AFiBnB,KAAK;EACJ,WAAW,EEjBL,MAAM",
+"sources": ["../sass/bottom.scss","../sass/color.scss","../sass/font.scss"],
+"names": [],
+"file": "bottom.css"
+}

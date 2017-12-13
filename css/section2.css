@@ -1,0 +1,34 @@
+.boxes1 {
+  padding-top: 30px; }
+
+.boxes2 {
+  padding-top: 30px;
+  padding-bottom: 50px; }
+
+.box {
+  border: solid 3px white;
+  background-color: #333333;
+  cursor: pointer; }
+
+.box p {
+  color: white;
+  font-size: 20px;
+  font-family: rufina;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  text-align: center; }
+
+.lower {
+  background-color: #151515;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-family: Timesnewroman; }
+
+.box:hover {
+  border: solid 3px #76c38f; }
+  .box:hover .lower {
+    color: #333333;
+    background-color: #333333; }
+
+/*# sourceMappingURL=section2.css.map */

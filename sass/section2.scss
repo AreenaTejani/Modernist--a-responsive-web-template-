@@ -1,0 +1,49 @@
+@import "color";
+@import "font";
+
+
+.boxes1{
+	padding-top:30px;
+
+}
+
+
+.boxes2{
+	padding-top:30px;
+    padding-bottom:50px;
+}
+
+.box{
+	border:solid 3px $white;
+	background-color:$dark-grey;
+	cursor:pointer;
+}
+
+.box p{
+	color:$white;
+	font-size:20px;
+	font-family:$font1;
+	padding-top:80px;
+	padding-bottom:50px;
+	text-align:center;
+}
+
+.lower{
+	background-color:$bold-grey;
+	color:$white;
+	text-align:center;
+	font-size:18px;
+	font-family:$font;
+}
+
+
+.box:hover{
+	
+	border:solid 3px $green;
+	.lower{
+	color:$dark-grey;
+	background-color:$dark-grey;
+
+
+	}
+}
